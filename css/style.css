@@ -24,6 +24,12 @@ h1 {
     margin-top: 227px;
 }
 
+h4 {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
 .p_header {
     font-size: 20px;
     color: #F0F0F0;
@@ -57,11 +63,202 @@ h1 {
     text-align: center;
 }
 
-.h2_container_info {
-    font-size: 40px;
+.container_info h2 {
     height: 94px;
 }
 
-.p_container_info {
+.container_info p {
     font-size: 18px;
 }
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* ADVANTAGES START */
+
+.advantages {
+    padding: 80px 0 100px;
+    background-color: #f2f9ff;
+}
+
+.advantages_blocks {
+    width: 1195px;
+    margin: 0 auto;
+}
+
+.advantages_block {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.advantages_block:nth-child(2) img {
+    order: 1;
+}
+
+.advantages_block:nth-child(2) .advantage_description {
+    padding-left: 0;
+    padding-right: 80px;
+}
+
+.advantages_block img {
+    width: 585px;
+    height: 580px;
+}
+
+.advantage_description {
+    padding-left: 80px;
+    padding-top: 65px;
+}
+
+.advantage_description h4 {
+    color: #0F4C92;
+}
+
+.date {
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 20px;
+}
+
+.date span {
+    font-weight: bold;
+}
+
+.advantage_description p {
+    font-size: 18px;
+    color: #1B1B1B;
+    margin-top: 40px;
+}
+
+.more_info {
+    background-color: #0D599C;
+    border: none;
+    color: #FFFFFF;
+    font-size: 21px;
+    line-height: 24.5px;
+    border-radius: 45px;
+    padding: 16px 70px;
+    margin-top: 40px;
+    /* width: 314 px; */
+    /* height: 57px; */
+}
+
+/* ADVANTAGES END */
+
+/* FORM START */
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.callback-form {
+    background: linear-gradient(327.75deg, #0080BF 9.35%, #00496C 117.99%);
+    border-radius: 50px;
+    padding: 100px 80px 50px;
+}
+
+.callback-form h2 {
+    color: #F9F9F9;
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+.callback-form input {
+    border: 1px solid #F7F6F6;
+    border-radius: 30px;
+    width: 350px;
+    background-color: transparent;
+    padding: 15px 30px;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.callback-form input:first-child {
+    margin-right: 15px;
+}
+
+.callback-form input::placeholder {
+    font-size: 18px;
+    line-height: 21px;
+    color: #B2E3FF;
+}
+
+.callback-form .callback-form__btn {
+    font-size: 21px;
+    color: #FFFFFF;
+    background-color: #FF9728;
+    padding: 16px 40px;
+    width: 206px;
+    height: 57px;
+    border-radius: 84px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 31px;
+    cursor: pointer;
+    width: 190px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* FORM END */
+
+/* BOOKONG START */
+.booking {
+    background-color: #B5E4FF;
+    padding-top: 97px;
+    padding-bottom: 97px;
+}
+
+.booking .booling__block {
+    background-color: #2B477C;
+    width: 665px;
+    border: none;
+    border-radius: 19px;
+    display: block;
+    margin: 0 auto;
+    padding: 60px 60px 30px 60px;
+    text-align: center;
+}
+
+.booling__block h2 {
+    color: #F4F4F4;
+    line-height: 46.88px;
+}
+
+.booling__block p {
+    font-weight: 400px;
+    font-size: 18px;
+    color: #F4F4F4;
+    line-height: 21.09px;
+    margin-top: 39px;
+}
+
+.booling__block button {
+    font-size: 21px;
+    line-height: 24.61px;
+    color: #FFFFFF;
+    background-color: #FF9728;
+    padding: 16px 40px;
+    width: 257px;
+    height: 57px;
+    border-radius: 84px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/* BOOKING END */
