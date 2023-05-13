@@ -262,3 +262,47 @@ h2 {
 }
 
 /* BOOKING END */
+
+/* MAP START */
+
+.map_section h2 {
+    color: #0F4C92;
+    text-align: center;
+    margin: 75px 0;
+}
+
+.map {
+    width: 100%;
+    height: 355px;
+}
+
+/* MAP END */
+
+/* FOOtER START */
+footer {
+    background-color: #0B83BE;
+    text-align: center;
+    padding: 47px 0 113px;
+    line-height: 23.44px;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.footer__logo {
+    width: 333px;
+    height: 105px;
+}
+
+.footer__address {
+    margin-top: 90px;
+}
+
+footer p {
+    color: #FFFFFF;
+}
+
+footer a {
+    color: #FFFFFF;
+}
+
+/* FOOTER END */
